@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+#column {
+  border: 1px solid #ffdeff;
+  float: left;
+  width: 300px;
+  background: #ffdeff;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 18pt;
+}
+
+p.one {
+  position: absolute;
+  top: 10.4em;
+  left: 8em;
+}
+
+p.two {
+  position: absolute;
+  top: 15em;
+  left: 5.45em;
+}
+
+p.three {
+  position: absolute;
+  top: 25.3em;
+  left: 2.5em;
+}
+
+p.four {
+  position: absolute;
+  top: 27em;
+  left: 9.7em;
+}
+
+#content {
+  margin-left: 300px;
+  width: 1000px;
+  border-left-width: 1px solid #222;
+  padding: 0px 5px 0px 20px;
+  background: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 12pt;
+  letter-spacing: 0.12px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 48pt;
+  padding-top: 10px 0px 15px 0px;
+  border-bottom-style: dotted;
+  margin: 0px auto;
+}
+
+ol li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 6px;
+}
+
+section {
+  padding: 15px 0px;
+}
+
+h2 {
+  padding: 5px;
+}
+
+h2,
+p,
+ul {
+  margin: .5px;
+}
+
+article {
+  position: relative;
+  margin-top: 10px;
+}
+
+p.date {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5px;
+}

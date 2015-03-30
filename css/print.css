@@ -1,0 +1,59 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: "Georgia", "Times New Roman", serif;
+  float: none;
+}
+
+@page {
+  margin: 1in;
+}
+
+nav {
+  display: none;
+}
+
+h1 {
+  font-size: 28pt;
+}
+
+h2 {
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+#column {
+  float: left;
+  width: 2in;
+  margin: 0px;
+}
+
+#content {
+  margin-left: 2in;
+  width: 6.5in;
+}
+
+p.one {
+  position: absolute;
+  top: 1.95in;
+  right: 7.5in;
+}
+p.two {
+  position: absolute;
+  top: 3.41in;
+  right: 7in;
+}
+p.three {
+  position: absolute;
+  top: 7.12in;
+  right: 6.6in;
+}
+p.four {
+  position: absolute;
+  top: 7.7in;
+  right: 8in;
+}
