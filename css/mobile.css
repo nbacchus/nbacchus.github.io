@@ -1,0 +1,33 @@
+@media (max-width: 320px) {
+
+  body {
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+  #index,
+  #about,
+  #resume,
+  #work {
+    border: 0;
+    max-width: 320px;
+    margin: 0;
+    padding: 0.5em;
+  }
+
+  header h1 {
+    font-size: 125%;
+    line-height: 1.5;
+  }
+
+  header {
+    display: inline;
+  }
+
+  img.header,
+  img.align-center {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+  }
+}
