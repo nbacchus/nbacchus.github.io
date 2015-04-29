@@ -1,54 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
-#column {
-  border: 1px solid #ffdeff;
-  float: left;
-  width: 300px;
-  background: #ffdeff;
-  margin: 0px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 18pt;
-}
-
-p.one {
-  position: absolute;
-  top: 10.4em;
-  left: 8em;
-}
-
-p.two {
-  position: absolute;
-  top: 15em;
-  left: 5.45em;
-}
-
-p.three {
-  position: absolute;
-  top: 25.3em;
-  left: 2.5em;
-}
-
-p.four {
-  position: absolute;
-  top: 27.8em;
-  left: 9.7em;
-}
-
-#content {
-  margin-left: 300px;
-  width: 1000px;
-  border-left-width: 1px solid #222;
-  padding: 0px 5px 0px 20px;
-  background: #fff;
+body {
+  background: #e9c9ff;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 12pt;
-  letter-spacing: 0.12px;
 }
 
-header {
+main {
+  width: 612px;
+  margin: 0 auto;
+  padding: 0px 15px 5px 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+#about,
+h1,
+ol li {
+  padding: 0;
+}
+
+nav,
+header{
   text-align: center;
 }
 
@@ -59,7 +31,13 @@ h1 {
   padding-top: 10px 0px 15px 0px;
   border-bottom-style: dotted;
   margin: 0px auto;
+  text-align: center;
 }
+
+ol {
+  padding-left: 0;
+}
+
 
 ol li {
   list-style-type: none;
@@ -75,21 +53,34 @@ h2 {
   padding: 5px;
 }
 
+h2.portfolio {
+  text-align: center;
+}
+
 h2,
 p,
 ul {
   margin: .5px;
 }
 
-article {
-  position: relative;
-  margin-top: 10px;
+p {
+  line-height: 1.5;
 }
 
 p.date {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+p.index {
+  text-align: center;
+  font-size: 150%;
+}
+
+article {
+  position: relative;
+  margin-top: 10px;
 }
 
 a {
@@ -101,11 +92,22 @@ a:hover {
   color: black;
 }
 
-p {
-  line-height: 1.5;
+img.header {
+  float: center;
+  margin-top: 10px;
+}
+
+img.bio {
+  float: right;
+}
+
+p.aboutme {
+  margin-right: 288px;
+  padding-top: 13px;
 }
 
 footer {
   text-align: center;
-  margin-top: 5px;
+  font-size: 80%;
+  margin-bottom: 10px;
 }
